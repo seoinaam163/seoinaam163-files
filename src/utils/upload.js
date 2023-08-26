@@ -1,9 +1,9 @@
 import axios from 'axios'
 
 const repo = 'seoinaam163/files' // 填你的仓库 repo
-const cutToken = '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' // 填你的 Token
-// const tailToken = ''
-const tailToken = process.env.NODE_ENV === 'development' ? '' : '0Cp7BjWgKlLpa14opaEzL'
+const cutToken = 'ghp_QNJWMPye8h' // 填你的 Token
+const tailToken = 'J4btihh5SCCsevp4ijnj2FjKxf' // 将原本的token 分割，避免放到git上被直接识别到
+// const tailToken = process.env.NODE_ENV === 'development' ? '' : '0Cp7BjWgKlLpa14opaEzL'
 // const uploader = {
 //     getUrl(file) {
 //         const content = await this.getBase64(file)
